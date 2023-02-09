@@ -13,12 +13,6 @@ public class Sieve {
 		System.out.println("What's the maximum number? (n inclusive)");
 		int n = in.nextInt();
 		
-		//int[] numbers = new int[n-1];
-		
-		//for (int i = 0; i < (n-1); i++) 
-		//	{
-		//	numbers[i] = i+2;
-		//	};
 		boolean[] isComposite = new boolean[n-1];
 		
 		while (sieveAdd<=n)
